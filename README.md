@@ -2196,10 +2196,11 @@ WIP
 
 1. Test everything works with no changes.
 
-    On Debian based systems:
+    On Ubuntu based systems:
 
     ``` bash
-    sudo aide.wrapper --check
+    #sudo aide.wrapper --check
+    sudo aide -c /etc/aide/aide.conf --check
     ```
     
     > ```
