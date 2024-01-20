@@ -2197,7 +2197,7 @@ WIP
     Now, copy the complete database to your database file location through the following command:
 
     ``` bash
-    > sudo cp /var/lib/aide/aide.db.new /var/lib/aide/aide.db
+    sudo cp /var/lib/aide/aide.db.new /var/lib/aide/aide.db
     ```
 
 1. Test everything works with no changes.
