@@ -2206,7 +2206,6 @@ WIP
 
     ``` bash
     sudo aide -c /etc/aide/aide.conf --check
-    sudo aide --check
     ```
     
     oder
