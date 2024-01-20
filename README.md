@@ -2158,7 +2158,7 @@ WIP
 
 1. Create a new database, and install it.
    
-    On Debian based systems:
+    On Ubuntu based systems:
 
     ``` bash
     sudo aideinit
@@ -2194,13 +2194,25 @@ WIP
     > End timestamp: 2019-04-01 21:24:45 -0400 (run time: 1m 8s)
     > ```
 
+    Now, copy the complete database to your database file location through the following command:
+
+    ``` bash
+    > sudo cp /var/lib/aide/aide.db.new /var/lib/aide/aide.db
+    ```
+
 1. Test everything works with no changes.
 
     On Ubuntu based systems:
 
     ``` bash
-    #sudo aide.wrapper --check
     sudo aide -c /etc/aide/aide.conf --check
+    sudo aide --check
+    ```
+    
+    oder
+
+    ``` bash
+    sudo aide --check
     ```
     
     > ```
