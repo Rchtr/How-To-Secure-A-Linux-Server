@@ -1,4 +1,4 @@
-FIrst of all, thanks to @imthenachoman and everyone else, wo is named in this guide!
+FIrst of all, thanks to [imthenachoman](https://github.com/imthenachoman) and everyone else, wo is named in this guide!
 
 # How To Secure A Linux Server
 
