@@ -2593,6 +2593,12 @@ WIP
     sudo dpkg-reconfigure chkrootkit
     ```
 
+    oder
+
+    ``` bash
+    sudo nano /etc/chkrootkit/chkrootkit.conf
+    ```
+
 ([Table of Contents](#table-of-contents))
 
 ### logwatch - system log analyzer and reporter
