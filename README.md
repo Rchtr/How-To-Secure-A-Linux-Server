@@ -2233,13 +2233,14 @@ WIP
 
 1. Test everything works after making some changes.
 
-    On Debian based systems:
+    On Ubuntu based systems:
 
     ``` bash
     sudo touch /etc/test.sh
     sudo touch /root/test.sh
     
-    sudo aide.wrapper --check
+    #sudo aide.wrapper --check
+    sudo aide -c /etc/aide/aide.conf --check
     
     sudo rm /etc/test.sh
     sudo rm /root/test.sh
